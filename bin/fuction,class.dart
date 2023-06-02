@@ -2,14 +2,12 @@ import 'fucntion.dart';
 
 class Myclass{
 
-  void add(){
-int a=20,
-b=50,
-sum=a+b;
-print("$a + $b =$sum");
-
-
-}
+  void add() {
+    int a = 20,
+        b = 50,
+        sum = a + b;
+    print("$a + $b =$sum");
+  }
  void sub() {
    int a = 10,
        b = 5,
@@ -31,5 +29,6 @@ print("$a + $b =$sum");
   }
 
   void main(){
+
   }
 }
