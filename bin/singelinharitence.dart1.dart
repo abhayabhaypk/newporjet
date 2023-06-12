@@ -7,7 +7,7 @@ class aniaml{
   }
 }
 class birds extends animal{
-  String name="";
+  String name="duck ";
   int  age=20;
 
   void show1(){
