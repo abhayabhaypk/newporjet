@@ -28,6 +28,6 @@ void main(){
   print("doughter name ${obj1.dname}");
   print("doughter age ${obj1.dage}");
   print("parent name ${obj1.name}");
-  print("parent age ${obj1.age}");
+  print("parent age ${obj1  .age}");
 
 }
