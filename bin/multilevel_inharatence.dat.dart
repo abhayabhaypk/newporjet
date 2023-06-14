@@ -10,18 +10,18 @@ print("..........");
 
 }
 class parent extends grand_parent{
-  parentdetails(String name,int age,String job) {
-    print("parent name:$name ");
-    print("parent age:$age");
-    print("parent job:$job");
+  parentdetails(String pname,int page,String pjob) {
+    print("parent name:$pname ");
+    print("parent age:$page");
+    print("parent job:$pjob");
     print("..........");
   }
 }
 class son extends parent{
-  sondetails(String name,int age ,String job){
-    print("son name:$name ");
-    print("son age:$age");
-    print("son job:$job");
+  sondetails(String sname,int sage ,String sjob){
+    print("son name:$sname ");
+    print("son age:$sage");
+    print("son job:$sjob");
     print("..........");
   }
 }
