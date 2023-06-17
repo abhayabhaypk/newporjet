@@ -19,24 +19,32 @@ void main(){
   var obj=studentdetails2();
 
 }
-// class teacher implements student {
-//
-//   teacherdetails(String name, int age ){
-//     print("teacher name $name");
-//     print("teacher age $age");
-//   }
-//
-//   @override
-//   int age=20;
-//
-//   @override
-//   String name="abhay";
-//
-//   @override
-//   void studentdetails(){
-//    print("teacher name$name");
-//    print("teacher age $age");
-//   }
-//
-// }
-//
+
+studentdetails2() {
+}
+class teacher implements student {
+
+  teacherdetails(String name, int age ){
+    print("teacher name $name");
+    print("teacher age $age");
+  }
+
+  @override
+  int age=20;
+
+  @override
+  String name="abhay";
+
+  @override
+  void studentdetails2(){
+   print("teacher name$name");
+   print("teacher age $age");
+  }
+
+  @override
+  void studentdetails(String name1, int age1) {
+    
+  }
+
+}
+
