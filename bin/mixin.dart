@@ -1,53 +1,57 @@
-import 'constructersin.dart';
-
 mixin one{
   String name="abhay";
   int age=20;
   void show(){
-    print("inside a function");
+    print("my name is $name");
+    print("my age is $age");
 
+  }
+ void display();
+
+}
+mixin two{
+  String name1="diii";
+  int age1=19;
+  void showw()
+  {
+     print("name is $name1");
+     print("age is $age1");
   }
   void display();
 
 }
-mixin two{
-  String name1="di11";
-  int age1=19;
-  void show1(){
-    print("inside a function");
-  }
-  void display2();
+class example{
+  String name2="abhu";
+  void add()
+  {
+    print("inside class example");
+    print("name is $name2");
 
-
-}
-class clas1{
-  String name1="abhu";
-  int age1=19;
-  void add(){
-    print("inside class1 function $name1 and $age1");
   }
 }
-
-
-
-
-class myclass extends clas1 with one,two{
+class hello extends example with one,two{
   @override
-  void display() {
-    print("flutter");
+  void displays() {
+    print("hiiiiiii");
+
   }
 
   @override
-  void display2() {
-print("hiiii");
+  void display() {
+  print("hellooooo");
   }
 
 }
 void main(){
-  var obj=myclass();
-  obj.add();
+  var obj=hello();
   obj.show();
   obj.display();
-  obj.show1();
-  obj.display2();
+  obj.showw();
+  obj.displays();
+  obj.add();
 }
+
+
+
+
+
