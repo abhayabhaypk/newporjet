@@ -10,7 +10,7 @@ mixin one{
 
 }
 mixin two{
-  String name1="diii";
+  String name1="nina";
   int age1=19;
   void showw()
   {
@@ -21,7 +21,7 @@ mixin two{
 
 }
 class example{
-  String name2="abhu";
+  String name2="jina";
   void add()
   {
     print("inside class example");

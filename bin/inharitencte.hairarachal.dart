@@ -10,7 +10,7 @@ class dog extends animal{
 
 }
 class elephent extends animal{
-  String ename="dii";
+  String ename="sinu";
   int eage=10;
 
 }
