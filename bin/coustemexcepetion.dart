@@ -20,7 +20,7 @@ void checkAge(int age){
   }
 }
 void main(){
-  print("hi  .please validateb your age ");
+  print("hi  .  please validate your age ");
   try{
     checkAge(10);
 
