@@ -3,12 +3,12 @@ class MyException implements Exception{
   MyException([this.msg]);
 
   @override
+
   String toString(){
     return "Exception occured $msg";
 
   }
 }
-
 
 
 void checkAge(int age){
@@ -20,7 +20,7 @@ void checkAge(int age){
   }
 }
 void main(){
-  print("hi  .  please validate your age ");
+  print("hi . please validate your age ");
   try{
     checkAge(10);
 
